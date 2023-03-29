@@ -8,6 +8,8 @@
 
 // Дан массив с числами. Проверьте то, что все элементы в массиве больше нуля.
 // const num = [1,2,3,0,4,5,6];
+// const result = num.filter(item => item === 0).sort((a, b) => a - b)
+// console.log(result)
 //
 // const numberZero = (array) => {
 //     return array.map(el => el > 0)
@@ -18,11 +20,15 @@
 // элементы.
 
 // const num = [1, 2, -3, 0, 4, -5, 6]
-//
+// const result = num.filter(item => item < 0).sort((a, b) => a + b)
+// console.log(result)
+
 // const number = (array) => {
 //     return array.map(el => el >= 0)
 // }
 // console.log(number(num))
+
+
 
 // Дан массив с числами. Оставьте в нем только отрицательные числа.
 
